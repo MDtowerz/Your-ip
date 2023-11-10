@@ -6,7 +6,7 @@
         width: 100%;">
         <h1 id="id" style="color:#fff;text-align: center; text-shadow: 3px 3px gray;">Loading....</h1>
         <h1 id="id2" style="display: none; color:#fff;text-align: center; text-shadow: 3px 3px gray;">Loading....</h1>
-        <button id='btn' onclick="load()" style=" position: absolute; left: 47%; visibility: hidden;">Load Game</button>
+        <button id='btn' onclick="load()" style=" position: absolute; left: 47%; visibility: hidden;">Play</button>
         </div>
         <script>
 
@@ -16,7 +16,7 @@
             const audio = new Audio('oof.mp3');
 
             function loaded() {
-                id.innerHTML = 'Proxy Started Click "Load Game" to Play'
+                id.innerHTML = 'Done Loading'
                 btn.style.visibility = "visible";
             }
 
